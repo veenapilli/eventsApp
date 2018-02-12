@@ -49,7 +49,6 @@ public class EventsDisplayAdapter extends RecyclerView.Adapter<EventHolder>{
     @Override
     public void onBindViewHolder(EventHolder holder, int position) {
         Logger.logData(TAG, "bind");
-        SimpleDateFormat formatDate = new SimpleDateFormat("yyyy-MM-dd HH:mm");
         final EventObject item = events.get(position);
         if(null != item){
             final EventHolder eventHolder = holder;
