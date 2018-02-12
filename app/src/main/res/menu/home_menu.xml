@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/available"
+        android:icon="@drawable/ic_event_seat_black_24dp"
+        android:title="@string/show_available"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/all"
+        android:icon="@drawable/ic_local_play_black_24dp"
+        android:title="@string/show_all"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/sort"
+        android:icon="@drawable/ic_sort_black_24dp"
+        android:title="@string/sort_by_date" />
+
+</menu>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">EventsApp</string>
+    <string name="request_complete">Complete</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="show_all">Show Plays</string>
+    <string name="show_available">Seat Availability</string>
+    <string name="sort_by_date">Sort by date</string>
+    <string name="available">Available seats: </string>
+    <string name="price">Price: </string>
+    <string name="date">Date: </string>
+    <string name="labels">Tags: </string>
+    <string name="event">Event Name:</string>
+    <string name="venue">Venue: </string>
+</resources>
